@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="carousel">
+        <div class="text" id="text">
+            <div class="text1 animateText" id="text1">
+              <h1 class="transform1">TRANSFORM</h1>
+              <h2 class="transform-words">YOUR BUSINESS INTO A <br>
+                SUCCESSFUL BUSINESS</h2>
+                <div class="trans_btn">
+              <button class="transform-btn">Read More»</button>
+                </div>
+            </div>
+            <div class="text2 animateText" id="text1">
+              <h1 class="transform"> VIVAMUS</h1>
+              <h2 class="transform-words">SED SEM TRISTIQUE <br>
+                NON ELEIFEND</h2>
+                <div class="trans_btn">
+                <button class="transform-btn">Read More»</button>
+                </div>
+            </div>
+            <div class="text3 animateText" id="text1">
+              <h1 class="transform"> MAURIS</h1>
+              <h2 class="transform-words">SED SEM TRISTIQUE <br>
+                NON ELEIFEND</h2>
+                <div class="trans_btn">
+                <button class="transform-btn">Read More»</button>
+                </div>
+            </div>  
+        </div>
+        <div class="carousel_track-container">
+            <ul class="carousel_track">
+                <li class="carousel_slide current-slide">
+                    <img class="carousel_image" src="./images/groupOfEmployees-large.jpg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="./images/clock-large.jpg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="./images/officeTablewithChair.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <div class="carousel_nav">
+            <button class="carousel_indicator current-slide"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+        </div>
+    </div>  
+    <header class= 'main-header'>
+        <span class="logo">
+            <i onclick="darkMode()" class="fa fa-refresh fa-3x"></i>
+            <h1>TRANSFORM</h1>
+        </span>
+        <span class="menuDrop"><p>MENU</p> <span class="fa fa-caret-down"></span></span>
+        <nav>
+            <ul class="nav-bar">
+                <li class="nav_list" id="home">HOME</li>
+                <li class="nav_list" id="pages" >PAGES</li>
+                <ul id="dropDown" class="dropDown">
+                    <li class="navBar_items">About Us</li>
+                    <li class="navBar_items">Contact</li>
+                    <li class="navBar_items">Team</li>
+                    <li class="navBar_items">Service</li>
+                    <li class="navBar_items">Client</li>
+                    <li class="navBar_items">FAQ</li>
+                    <li class="navBar_items">Archive</li>
+                    <li class="navBar_items">404</li>
+                    <li class="navBar_items">Sidebar Left</li>
+                    <li class="navBar_items">Sidebar Right</li>
+                    <li class="navBar_items">Sidebar Left & Right</li>
+                    <li class="navBar_items">Full Width Content</li>
+                    <li class="navBar_items">HTML Sitemap</li>
+                </ul>
+                <li class="nav_list" id="elements">ELEMENTS</li>
+                <ul id="dropDownE" class="dropDownE">
+                    <li class="navBar_items">Buttons</li>
+                    <li class="navBar_items">Alert messages</li>
+                    <li class="navBar_items">Font Icon</li>
+                    <li class="navBar_items">Social Icons</li>
+                    <li class="navBar_items">Call to Action</li>
+                    <li class="navBar_items">Colums</li>
+                    <li class="navBar_items">Daddy</li>
+                    <li class="navBar_items">List</li>
+                    <li class="navBar_items">Toggles</li>
+                    <li class="navBar_items">Pricing Tablets</li>
+                    <li class="navBar_items">Media</li>
+                    <li class="navBar_items">Tablet</li>
+                    <li class="navBar_items">Testimonial</li>
+                </ul>
+                <li class="nav_list" id="blogs">BLOGS</li>
+                <ul id="dropDownB" class="dropDownB">
+                    <li class="navBar_items">Blog Overview</li>
+                    <li class="navBar_items">Blog Post</li>
+                </ul>
+                <li class="nav_list" id="gallery">GALLERY</li>
+                <ul id="dropDownG" class="dropDownG">
+                    <li class="navBar_items">Mona Lisa</li>
+                    <li class="navBar_items">Da Vinci</li>
+                    <li class="navBar_items">Noah's Ark</li>
+                    <li class="navBar_items">Samson The GreAT</li>
+                    <li class="navBar_items">Wise Solomon</li>
+                    <li class="navBar_items">Simba</li>
+                    <li class="navBar_items">7 Wonders Of the World</li>
+                </ul>
+
+            </ul>
+        </nav>
+    
+    </header>
+    
+    <main class="wrapper">
+        <div class="firstContainer">
+            <section class="firstSection firstPart">
+                <img src="./images/tradeMonitor.jpg" alt="">
+                <h2>LOREM IPSUM DOLOR SIT AMET, CONSECT ETUR ADIPISCING</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui. Etiam in rutrum nisi. Quisque porta scelerisque est, sit amet interdum nisi semper in.</p>
+                <button class="moreBtn">Read More &gt;&gt;</button>
+            </section>
+            <section class="firstSection">
+                <h2>THE TOP 3 REASONS</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui.</p>
+                
+                <span class="partList"><span class="insignifico_numb">1.</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elt. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris non feugiat</p></span>
+                
+                <span class="partList"><span class="insignifico_numb">2.</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elt. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris non feugiat</p></span>
+
+                <span class="partList"><span class="insignifico_numb">3.</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elt. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris non feugiat</p></span>
+            </section>
+            <section class="firstSection">
+                <h2>FROM THE BLOG</h2>
+                <div class="fromTheBlog">
+                    <span><img src="./images/manSitting-small.jpg" alt=""></span>
+                    <span class="shortNote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adi pisc ing elit vivamus</p>
+                        <button class="moreBtn">Read More &gt;&gt;</button>
+                    </span>
+                </div>
+                <div class="fromTheBlog">
+                    <span><img src="./images/groupOfMen-small.jpg" alt=""></span>
+                    <span class="shortNote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adi pisc ing elit vivamus</p>
+                        <button class="moreBtn">Read More &gt;&gt;</button>
+                    </span>
+                </div>
+                <div class="fromTheBlog">
+                    <span><img src="./images/handset-small.jpg" alt=""></span>
+                    <span class="shortNote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adi pisc ing elit vivamus</p>
+                        <button class="moreBtn">Read More &gt;&gt;</button>
+                    </span>
+                </div>
+            </section>
+        </div>
+        <div class="secondContainer"> 
+            <div class="shuffleImageContainer"><img src="./images/shuffleImage-large.jpg" alt="" class="shuffleImage"></div>             
+            
+            <div class="insignifico">
+                <h2>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT VIVAMUS.</h2>
+                <p><i class="fa-solid fa-right-long"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elt. Vivamus id pharetra</p>
+                <p><i class="fa-solid fa-right-long"></i>Lorem ipsum dolor sit amet, consectetur</p>
+                <p><i class="fa-solid fa-right-long"></i>Lorem ipsum dolor sit amet, consectetur adipiscing ept</p>
+                <p><i class="fa-solid fa-right-long"></i>Lorem ipsum dolor sit amet, consectetur vivamus</p>
+                <button class="insignifico_btn1">Lorem ipsum</button>
+                <button class="insignifico_btn2">dolor sit amet</button>
+            </div>           
+        </div>
+        <div class="thirdContainer">
+            <section class="thirdSection">
+                <h2>LOREM IPSUM DOLOR SIT AMET</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris</p>
+                <div class="contact">
+                    <span class="contact_img"><img src="./images/smileGirl-large.png" alt=""></span>
+                    <span class="shortNote">
+                        <a href="#"><h2>Jane Doe</h2></a>
+                        <h5>Job Title Here</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris.</p>
+                        <span class="janeLeephone">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="#"><p>1001000 1101001</p></a>
+                        </span>
+                        
+                    </span>
+                </div>
+                <div class="contact">
+                    <span class="contact_img"><img src="./images/asianBoy-large.png" alt=""></span>
+                    <span class="shortNote">
+                        <a href="#"><h2>Chung Lee</h2></a>
+                        <h5>Job Title Here</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris.</p>
+                        <span class="janeLeephone">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="#"><p>1001000 1101001</p></a>
+                        </span>
+                    </span>
+                </div>
+            </section>
+            <section class="thirdSection">
+                <h2>LOREM IPSUM DOLOR SIT AMET</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris</p>
+                <div class="chgComents">
+                    <div class="comments comment1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui. Etiam in rutrum nisi</p> 
+
+                       <p>Quisque porta scelerisque est, sit amet interdum nisi semper in. Etiam eu hendrerit nibh. Aenean porttitor molestie accumsan.</p> 
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui. Etiam in rutrum nisi. Quisque porta scelerisque est, sit ame.</p> 
+                    </div>
+                    <div class="comments comment2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui. Etiam in rutrum nisi.</p> 
+
+                        <p>Quisque porta scelerisque est, sit amet interdum nisi semper in. Etiam eu hendrerit nibh. Aenean porttitor molestie accumsan</p> 
+                    </div>
+                    <div class="comments comment3">
+                        <p>Phasellus felis metus, ornare nec consectetur a, placerat eu felis. Phasellus quis enim orci. Etiam vel dui nisi, sed semper urna. Ut mattis dignissim lacus, vitae pretium neque volutpat nec.</p>
+                    </div>
+                </div>
+                <div class="comment_nav">
+                    <button class="comment_indicator current-comment"></button>
+                    <button class="comment_indicator"></button>
+                    <button class="comment_indicator"></button>
+                </div>
+            </section>
+        </div>
+        <div class="fourthContainer">
+            <span class="arrow360">
+               <a href="#top"><i class="fa fa-arrow-up fa-2x"></i></a>
+            </span></a>
+            <section class="fourthSection">
+                <h2>Lorem Ipsum Dolor</h2>
+                <div class="underline"><div class="underline_blue"></div></div>
+                
+                <a href="#h" class="footer_link"><p>Home Page</p></a>
+                <hr>
+                <a href="#" class="footer_link"><p>Our Services</p></a>
+                <hr>
+                <a href="#" class="footer_link"><p>Meet The Team</p></a>
+                <hr>
+                <a href="#" class="footer_link"><p>Blog</p></a >
+                <hr>
+                <a href="#" class="footer_link"><p>Contact Us</p></a>
+                <hr>
+            </section>
+            <section class="fourthSection">
+                <h2>Lorem Ipsum Dolor</h2>
+                <div class="underline"><div class="underline_blue"></div></div>
+                <label for="newsletter">To sign-up for our newsletter simply enter your email below</label><br><br>
+                <input id="newsletter" type="email" placeholder="Email here">
+                <button class="newsletterBtn moreBtn">Submit</button>
+                <p>Follow us in the social networks</p>
+                <div class="socials">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                    <i class="fa-brands fa-pinterest fa-2x"></i>
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <i class="fa-brands fa-linkedin fa-2x"></i>
+                    <i class="fa-brands fa-google-plus fa-2x"></i>
+                </div>
+                
+            </section>
+            <section class="fourthSection">
+                <h2>Lorem Ipsum Dolor</h2>
+                <div class="underline"><div class="underline_blue"></div></div>
+                <p>
+                    <i class="fa-solid fa-right-long"></i>
+                    <a href="#"><span>Quisque porta scelerisque</span></a>
+                </p>
+                
+                <p>
+                    <i class="fa-solid fa-right-long"></i>
+                    <a href="#"><span>Quisque porta scelerisque</span></a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-right-long"></i>
+                    <a href="#"><span>Quisque porta scelerisque</span></a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-right-long"></i>
+                    <a href="#"><span>Quisque porta scelerisque</span></a>
+                </p>
+            </section>
+            <section class="fourthSection">
+                <h2>Lorem Ipsum Dolor</h2>
+                <div class="underline"><div class="underline_blue"></div></div>
+                <p>
+                    Aenean semper elementum tellus, ut placerat leo. Quisque vehicula, urna sit amet pulvinar dapibus, dui leo.
+                </p> 
+
+                <p>Street Name & Number</p>  
+                    
+                <p>Town</p>  
+                    
+                <p>Postcode/Zip</p>  
+
+                <p><img class="clock" src="./images/schedule_FILL0_wght400_GRAD0_opsz48.svg" alt=""> Mon. - Fri. 9:00am - 7:00pm</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i>
+                <a href="#">1001000 1101001</a></p>
+                
+            </section>
+            <span class="trans-below">
+                <i class="fa fa-refresh fa-2x"></i>
+                <h2>TRANSFORM</h2>
+            </span>
+        </div>
+    
+    </main>
+    <footer>
+        "Copyright © 2009 - 2020. All Rights Reserved | 
+        "<a href>Link 1 / Link 2 / Link 3 / Link 4 / Link 5</a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
